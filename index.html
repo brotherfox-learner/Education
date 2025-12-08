@@ -9,10 +9,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      tailwind.config = {theme: {extend: {fontFamily: {rubik: ["Rubik", "sans-serif"],poppins: ["Poppins", "sans-serif"],},},},};
+      tailwind.config = {theme: {extend: {screens: {'desktop': '1920px', },fontFamily: {rubik: ["Rubik", "sans-serif"],poppins: ["Poppins", "sans-serif"],},},},};
     </script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline font-poppins">Hello world!</h1>
+    <section class="w-[375px] h-[1026px] pl-[24px] pr-[24px] mt-10">
+        <section class="mb-12 ">
+        <div class="flex flex-col">
+            <div class="h-[68px] mb-6 flex flex-col">
+            <span class="font-poppins font-bold text-[24px] text-[#111116]">5000 Reviews from</span>
+            <span class="font-poppins font-bold text-[24px] text-[#111116]">Our Successful Students!</span>
+            </div>
+            <div class="w-[327px] h-[180px]">
+            <span class="font-rubik font-normal text-[18px] leading-[36px] text-[#6F6F76]">Teractively recaptlualize Intermandated e-commerce after sticky applications. Dynamically reintermediate viral testing procedures through technically sound.</span>
+            </div>
+        </div>
+        </section>
+
+        <section class="relative">
+        <article class="bg-[#FFA502] rounded-2xl p-6 relative z-10 shadow-[-10px_20px_40px_#FFA50266]">
+            <div class="flex justify-start items-center gap-4 mb-4 ">
+            <div>
+                <img src="image/Best/Jaquan.svg" alt="Jaquon Hart profile picture" class="w-[87.21126556396484px] h-[87.21126556396484px] rounded-full object-cover" />
+            </div>
+            <div class="flex flex-col ">
+                <div class="font-poppins font-bold text-white text-[24.23px]/[29.07px] mb-1">Jaquon Hart</div>
+                <div class="font-rubik font-normal text-white text-[19.38px]/[33.92px] mb-2">Civil Engineer</div>
+            </div>
+            </div>
+            <div class="w-[143.04745483398438px] flex justify-between mb-4">
+                <span><img src="image/Best/star.svg" alt="star"></span>
+                <span><img src="image/Best/star.svg" alt="star"></span>
+                <span><img src="image/Best/star.svg" alt="star"></span>
+                <span><img src="image/Best/star.svg" alt="star"></span>
+                <span><img src="image/Best/star.svg" alt="star"></span>
+                </div>
+            <div class="mt-4">
+                <span class="font-rubik font-normal text-[24px] leading-[48px] text-white">“With Edu, we're able <br> to easily track our performance in full <br> detail. It's become an essential tool for us to grow and engage with our audience.”</span>
+            </div>
+        </article>
+        
+        <div class="flex gap-3 justify-end mt-12 relative z-20">
+            <button aria-label="Previous testimonial" class="w-8 h-8 flex items-center justify-center">
+            <img src="image/Best/L-btn.svg" alt="Previous" class="w-8 h-8" />
+            </button>
+            <button aria-label="Next testimonial" class="w-8 h-8 flex items-center justify-center">
+            <img src="image/Best/R-btn.svg" alt="Next" class="w-8 h-8" />
+            </button>
+        </div>
+
+        <div class="absolute top-[275px] left-[20px] z-0">
+            <span class="w-[267px] h-[336px] font-rubik font-normal text-[24px]/[48px] text-[#6F6F76] opacity-50">“With Edu, we're able to easily track our performance in full detail. It's become an essential tool for us to <br> grow and engage with <br> our audience.”</span>
+        </div>
+        </section>
+
+
+    </section>
   </body>
 </html>
