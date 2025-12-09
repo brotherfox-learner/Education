@@ -6,13 +6,912 @@
     <title>Education</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      tailwind.config = {theme: {extend: {fontFamily: {rubik: ["Rubik", "sans-serif"],poppins: ["Poppins", "sans-serif"],},},},};
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: { desktop: "1920px" },
+            fontFamily: {
+              rubik: ["Rubik", "sans-serif"],
+              poppins: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
     </script>
+    <style>
+    </style>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline font-poppins">Hello world!</h1>
+
+    <!--Start of header Section -->
+    <header class="desktop:pb-[140px] pb-[60px] bg-[linear-gradient(90.63deg,#FFFBF4_21.32%,#F7FCF9_132.04%)]">
+      <div class="pt-[24px] pb-[80px] flex justify-center desktop:justify-between">
+        <div class="w-[327px] flex justify-between items-center desktop:w-full desktop:px-[250px]">
+          <img src="image\Oat\icons\logo.svg" class="w-[59px] h-[33px] desktop:w-[130px] desktop:h-[73px]">
+          <div class="group relative" tabindex="0">
+            <img src="image\Oat\icons\category-icon.svg" class="w-[24px] h-[24px] cursor-pointer desktop:hidden">
+            <div class="bg-white shadow-md h-[130px] w-[100px] py-[10px] flex flex-col justify-between rounded-[10px] items-center gap-[6px] absolute right-[-5px] mt-[4px] invisible group-focus-within:visible z-40 desktop:hidden">
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Contact Now</h5>
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Home</h5>
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Admission</h5>
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Academic</h5>
+            </div>
+          </div>
+          <button class="hidden desktop:block desktop:w-[162px] desktop:h-[64px] desktop:text-white desktop:font-[500] desktop:font-rubik desktop:rounded-[15px] desktop:bg-[#111116] desktop:shadow-[inset_0px_-10px_20px_#585867] desktop:order-3 hover:bg-[#1a1a22] hover:scale-105 ">Contact Now</button>
+          <div class="hidden desktop:w-[351px] desktop:font-rubik desktop:text-[18px] desktop:flex desktop:justify-between desktop:absolute desktop:left-[550px]">
+            <span class="desktop:hover:underline desktop:hover:decoration-[#FFBE48] desktop:hover:decoration-[2px] desktop:hover:underline-offset-8">Home</span>
+            <span class="desktop:hover:underline desktop:hover:decoration-[#FFBE48] desktop:hover:decoration-[2px] desktop:hover:underline-offset-8">Admission</span>
+            <span class="desktop:hover:underline desktop:hover:decoration-[#FFBE48] desktop:hover:decoration-[2px] desktop:hover:underline-offset-8">Academic</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center desktop:flex-row desktop:justify-between desktop:px-[250px] desktop:pt-[120px]">
+        <div class="pb-[35px] flex justify-center items-center desktop:order-2">
+          <div class="relative desktop:scale-[2.15] desktop:left-[-140px] desktop:top-[30px] hover:scale-105 desktop:hover:scale-[2.30] transition-all duration-300">
+            <span class="w-[295px] h-[295px] rounded-full bg-[linear-gradient(180deg,#FFF1DB_36.7%,#FAFCF7_100%)] inline-block"></span>
+
+            <!-- congrat tag-->
+            <div class="absolute left-[-32px] top-[45px] hover:scale-110 desktop:hover:scale-[1.20] transition-all duration-400">
+              <div
+                class="w-[87.5px] h-[48.5px] bg-white flex flex-col justify-center items-center gap-[4px] rounded-[8.75px] absolute shadow-[2.18px_6.55px_21.85px_rgba(0,0,0,0.1)]"
+              >
+                <h5 class="font-poppins font-[600] text-[7px]">
+                  Congratulation!
+                </h5>
+                <h6 class="font-rubik font-[400] text-[7px] text-[#6F6F76]">
+                  You got a new email
+                </h6>
+                <div
+                  class="w-[21px] h-[21px] flex justify-center items-center bg-[#6B47FC] rounded-full shadow-[0.87px_3.49px_8.7px_rgba(107,71,252,0.5)] absolute top-[-13px]"
+                >
+                  <img
+                    src="image\Oat\icons\line-md-email.svg"
+                    class="w-[10.5px] h-[10.5px]"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- 40k+ tag-->
+            <div class="absolute top-[26px] right-[60px] hover:scale-110 desktop:hover:scale-[1.20] transition-all duration-400">
+              <div
+                class="w-[87.5px] h-[87.5px] bg-white flex flex-col justify-center items-center gap-[4px] rounded-[8.75px] absolute shadow-[2.18px_6.55px_21.85px_rgba(0,0,0,0.1)]"
+              >
+                <div
+                  class="flex flex-col justify-center items-center gap-[4px]"
+                >
+                  <h5 class="font-poppins font-[700] text-[13.12px] ">40k +</h5>
+                  <h6 class="font-rubik text-[7.87px] text-[#6F6F76]">
+                    Happy Students
+                  </h6>
+                </div>
+                <div class="relative w-[66.45px] h-[20.26px]">
+                  <img
+                    src="image\Oat\student-1.png"
+                    class="w-[20.26px] h-[20.26px] bg-[#D4EBFA] rounded-full border-[1px] border-white absolute left-[0px]"
+                  />
+                  <img
+                    src="image\Oat\student-2.png"
+                    class="w-[20.26px] h-[20.26px] bg-[#FACFDF] rounded-full border-[1px] border-white absolute left-[15px]"
+                  />
+                  <img
+                    src="image\Oat\student-3.png"
+                    class="w-[20.26px] h-[20.26px] bg-[#FDDCC7] rounded-full border-[1px] border-white absolute left-[30px]"
+                  />
+                  <img
+                    src="image\Oat\student-4.png"
+                    class="w-[20.26px] h-[20.26px] bg-[#CFEDD9] rounded-full border-[1px] border-white absolute left-[45px]"
+                  />
+                </div>
+                <div
+                  class="w-[21px] h-[21px] bg-[#51C8FF] flex justify-center items-center rounded-full absolute top-[-10px] shadow-[0.87px_3.49px_8.7px_rgba(81,200,255,0.5)]"
+                >
+                  <img
+                    src="image\Oat\icons\heart-icon.svg"
+                    class="w-[10.49px] h-[10.49px]"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- brush pain-->
+            <img
+              src="image\Oat\icons\brush-1.svg"
+              class="w-[260px] h-[86.68px] absolute bottom-[75px] left-[-22px]"
+            />
+            <img
+              src="image\Oat\icons\brush-2.svg"
+              class="w-[181px] h-[76px] absolute bottom-[80px] right-[-20px]"
+            />
+          </div>
+        </div>
+        <div class="w-[327px] h-[380px] flex flex-col justify-center gap-[15px] desktop:h-[492px] desktop:gap-[35px]">
+          <h1 class="w-[156px] h-[120px] font-poppins font-[700] text-[30px] leading-[40px] desktop:w-[416px] desktop:h-[270px] desktop:font-[700] desktop:text-[80px] desktop:leading-[90px]">Start Your Future Education</h1>
+          <h5 class="desktop:hidden h-[144px] text-[18px] text-[#6F6F76] font-rubik leading-[36px]">Credibly redefine distinctive total linkage vis-a-vis multifunc<br>data. Phosfluorescently impact <br>goal-oriented strategic</h5>
+          <h5 class="hidden desktop:inline desktop:h-[72px] desktop:w-[567px] desktop:text-[18px] text-[#6F6F76] font-rubik leading-[36px]">Credibly redefine distinctive total linkage vis-a-vis multifunc<br>data. Phosfluorescently impact goal-oriented strategic</h5>
+          <button class="w-[180px] h-[70px] mt-[20px] font-rubik font-[500] text-white bg-[#FFA502] rounded-[15px] shadow-[5px_10px_30px_rgba(255,165,2,0.3)] hover:bg-[#E69500] hover:scale-105">Discover More</button>
+        </div>
+      </div>
+    </header>
+    <section
+      class="pt-[80px] flex flex-col justify-center items-center desktop:pt-[120px] desktop:px-[250px]"
+    >
+      <h2
+        class="w-[243px] h-[34px] font-poppins font-[700] text-[24px] desktop:w-[405px] desktop:pb-[80px] desktop:text-[40px]"
+      >
+        Trusted Companies
+      </h2>
+      <div
+        class="flex flex-col justify-center items-center gap-[15px] mt-[35px] mb-[35px] desktop:flex-row desktop:gap-[55px]"
+      >
+        <img
+          src="image\Oat\icons\martoni-company.svg"
+          class="w-[210px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
+        />
+        <img
+          src="image\Oat\icons\real-estate-company.svg"
+          class="w-[284px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
+        />
+        <div
+          class="w-[223px] h-[97px] bg-white rounded-[20px] flex justify-center items-center shadow-[5px_30px_60px_rgba(85,85,85,0.1)] desktop:w-[240px]"
+        >
+          <img
+            src="image\Oat\icons\promedia-company.svg"
+            class="w-[206px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
+          />
+        </div>
+        <img
+          src="image\Oat\icons\studio-company.svg"
+          class="w-[284px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
+        />
+        <img
+          src="image\Oat\icons\maxdino-company.svg"
+          class="w-[284px] h-[68px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
+        />
+      </div>
+    </section>
+    <!--End of header Section -->
+
+<!--Start Section Career -->  
+<!-- Hero Section: We Help to Create Possibility & Success in Your Career! -->
+<section class="desktop:w-[1920px] desktop:h-[776px] relative mx-auto bg-white mb-12 desktop:mb-[200px] desktop:mt-[60px]">
+  <div class="container mx-auto px-4 desktop:px-0">
+    <div class="flex flex-col items-center justify-between gap-8 py-12 desktop:flex-row desktop:gap-12 desktop:py-20">
+      <!-- Left Side: Circles with Play Button -->
+      <div class="relative w-full flex justify-center items-center mb-8 desktop:mb-0 desktop:w-[50%]">
+        <div class="relative w-full max-w-[350px] h-[300px] flex items-center justify-center desktop:max-w-[700px] desktop:h-[632px]">
+          <!-- Container for circles (width: 668.064453125px, height: 632px) -->
+          <div class="absolute w-full max-w-[350px] h-full desktop:max-w-[668px]">
+            <!-- Blue Circle - Larger circle behind (width: 574px, height: 574px, top: 121px, left: 249.94px) -->
+            <div class="group absolute w-[296.3402404785156px] h-[296.3402404785156px] rounded-full bg-[#D4EFF6] shadow-lg top-[10%] left-[5%] transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:shadow-2xl desktop:w-[574px] desktop:h-[574px] desktop:top-[121px] desktop:left-[249.94px]"></div>
+            <!-- Yellow Circle - Smaller circle overlapping from top-right (width: 453px, height: 453px, top: 63px, left: 465px) -->
+            <div class="group absolute w-[233.8712921142578px] h-[233.8712921142578px] rounded-full bg-[#FEE095] shadow-lg top-[2%] left-[34%] z-10 transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:shadow-2xl desktop:w-[453px] desktop:h-[453px] desktop:top-[63px] desktop:left-[465px]"></div>
+            <!-- Play Button - Centered in the overlap area (width: 120px, height: 120px, top: 428px, left: 758px) -->
+            <div class="group absolute w-[61.95266342163086px] h-[61.95266342163086px] bg-white rounded-full shadow-lg flex items-center justify-center z-20 top-[73%] right-[-5%] -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(255,165,2,0.4)] hover:bg-[#FFFBF0] cursor-pointer desktop:w-[120px] desktop:h-[120px] desktop:top-[428px] desktop:left-[758px] desktop:translate-x-0 desktop:translate-y-0">
+              <!-- Play Icon (width: 21.99968910217285px, height: 23.999828338623047px) -->
+              <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[16px] h-[18px] desktop:w-[22px] desktop:h-[24px] play-button-icon transition-all duration-300 ease-out group-hover:scale-125">
+                <path d="M0 0L22 12L0 24V0Z" fill="#000000" class="transition-all duration-300 ease-out fill-black group-hover:fill-[#FFA502]"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side: Text Content -->
+      <div class="w-full max-w-[453px] flex flex-col items-center px-4 desktop:max-w-[453px] desktop:h-[462px] desktop:items-start desktop:justify-end desktop:px-16 desktop:opacity-100 desktop:rounded-[15px]">
+        <!-- Heading -->
+        <h1 class="w-full max-w-[453px] font-poppins font-bold text-[32px] leading-[46px] text-[#111116] mb-4 transition-all duration-300 ease-out hover:-translate-y-1 hover:text-[#FFA502] desktop:absolute desktop:top-[154px] desktop:left-[1216.94px] desktop:text-[40px] desktop:leading-[58px] desktop:mb-0">
+          We Help to Create Possibility & Success in Your Career!
+        </h1>
+        
+        <!-- Description -->
+        <p class="w-full max-w-[453px] text-sm font-rubik text-gray-700 leading-relaxed mb-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:text-gray-900 desktop:absolute desktop:w-[453px] desktop:h-[144px] desktop:top-[358px] desktop:left-[1216.94px] desktop:text-lg desktop:mb-0">
+          Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before.
+        </p>
+        
+        <!-- Get Started Button (width: 205px, height: 64px, border-radius: 15px, background: #FFA502) -->
+        <button class="w-[205px] h-[64px] bg-[#FFA502] rounded-[15px] shadow-[5px_10px_30px_0px_rgba(255,165,2,0.3)] hover:shadow-[0px_15px_35px_rgba(255,165,2,0.45)] hover:scale-105 flex items-center justify-center transition-all duration-200 desktop:absolute desktop:top-[552px] desktop:left-[1216.94px]">
+          <!-- Get Started Text (font-family: Rubik, font-weight: 500, font-size: 16px, line-height: 26px, color: #FFFFFF) -->
+          <span class="font-rubik font-medium text-base text-white after:content-[''] after:absolute after:inset-0 after:bg-[#FFA502] after:rounded-md after:-z-10 after:scale-100 hover:after:scale-110 after:transition-transform after:duration-200 transition-all duration-300">Get Started Today</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Departments Section: We Have Most of Popular Departments -->
+<section class="desktop:flex justify-center">
+  <section class="desktop:w-[1720px] desktop:h-[1062px] relative w-[375px] bg-[#FFFBF4] py-12 desktop:py-24">
+  <div class="container mx-auto px-4 desktop:px-0">
+    <!-- Title (width: 443px, height: 116px, font-family: Poppins, font-weight: 700, font-size: 40px, line-height: 58px, text-align: center, color: #111116) -->
+    <div class="text-center mb-5 pt-[25px] desktop:mb-16">
+      <h2 class="font-poppins font-bold text-[24px] leading-[34px] relative transition-all duration-300 ease-out hover:-translate-y-1 hover:text-[#FFA502] desktop:text-[40px] desktop:leading-[58px]">
+        We Have Most of <br /> Popular Departments
+      </h2>
+    </div>
+
+    <div class="desktop:flex desktop:flex-col">
+      <!-- Cards Container (width: 1421px, height: 512px) -->
+      <div class="flex flex-col gap-6 justify-center items-center mb-10 desktop:flex-row desktop:gap-8 desktop:mb-12">
+        <!-- Card 1: Artificial Intelligence -->
+        <div class="w-[355px] h-[512px] bg-white rounded-[20px] flex flex-col justify-center items-center border-white shadow-md overflow-hidden hover:shadow-lg transition-shadow desktop:w-[453px] desktop:h-[512px]  duration-300 ease-out 
+        opacity-70 hover:opacity-100 hover:scale-105">
+          <!-- Image -->
+          <img src="/image/Patt/artificial-intelligence-future-technology.jpg" alt="Artificial Intelligence department" class="w-[307px] h-[280px] rounded-t-[34px] object-cover desktop:rounded-t-[20px] desktop:h-[280px] desktop:w-[393px] transition-all duration-300 ease-out 
+          opacity-70 hover:opacity-100 hover:scale-105">
+          <div class="w-[307px] desktop:w-[393px]">
+            <div class="pt-[15px] desktop:h-[172px] desktop:pt-6 desktop:flex desktop:flex-col desktop:justify-start desktop:items-start ">
+              
+              <h3 class="text-[24px] w-[257px] font-bold font-poppins text-[#3B3B3B] mb-3 transition-all duration-300 ease-out hover:-translate-y-1 hover:text-[#FFA502] desktop:text-2xl">
+                Artificial Intelligence
+              </h3>
+              <p class="font-rubik text-[18px] text-[#6F6F76] leading-[32px] mb-4 desktop:text-base desktop:leading-[32px]">
+                Assertively parallel task synergistic<br> deliverables after high-quality.
+              </p>
+              <a href="#" class="text-[#FFA502] font-poppins font-medium text-[16px] hover:underline hover:-translate-y-1 hover:font-semibold transition-all duration-300 ease-out inline-flex items-center desktop:text-base desktop:pt-2">
+                Learn More →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Civil Engineering -->
+        <div class="w-[355px] h-[512px] bg-white rounded-[20px] flex flex-col justify-center items-center border-white shadow-md overflow-hidden hover:shadow-lg transition-shadow desktop:w-[453px] desktop:h-[512px] duration-300 ease-out 
+        opacity-70 hover:opacity-100 hover:scale-105">
+          <!-- Image -->
+          <img src="/image/Patt/construction-works-frankfurt-downtown-germany.jpg" alt="Civil Engineering" class="w-[307px] h-[280px] rounded-t-[34px] object-cover desktop:rounded-t-[20px] desktop:h-[280px] desktop:w-[393px] transition-all duration-300 ease-out 
+          opacity-70 hover:opacity-100 hover:scale-105">
+          <div class="w-[307px] desktop:w-[393px]">
+            <div class="pt-[15px] desktop:h-[172px] desktop:pt-6 desktop:flex desktop:flex-col desktop:justify-start desktop:items-start ">
+              
+              <h3 class="text-[24px] w-[257px] font-bold font-poppins text-[#3B3B3B] mb-3 transition-all duration-300 ease-out hover:-translate-y-1 hover:text-[#FFA502] desktop:text-2xl">
+                Civil Engineering
+              </h3>
+              <p class="font-rubik text-[18px] text-[#6F6F76] leading-[32px] mb-4 desktop:text-base desktop:leading-[32px]">
+                Assertively parallel task synergistic<br> deliverables after high-quality.
+              </p>
+              <a href="#" class="text-[#FFA502] font-poppins font-medium text-[16px] hover:underline hover:-translate-y-1 hover:font-semibold transition-all duration-300 ease-out inline-flex items-center desktop:text-base desktop:pt-2">
+                Learn More →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Business Studies -->
+        <div class="w-[355px] h-[512px] bg-white rounded-[20px] flex flex-col justify-center items-center border-white shadow-md overflow-hidden hover:shadow-lg transition-shadow desktop:w-[453px] desktop:h-[512px] duration-300 ease-out 
+        opacity-70 hover:opacity-100 hover:scale-105">
+          <!-- Image -->
+          <img src="/image/Patt/solution-percentage-business-chart-concept.jpg" alt="Business Studies" class="w-[307px] h-[280px] rounded-t-[34px] object-cover desktop:rounded-t-[20px] desktop:h-[280px] desktop:w-[393px] transition-all duration-300 ease-out 
+          opacity-70 hover:opacity-100 hover:scale-105">
+          <div class="w-[307px] desktop:w-[393px]">
+            <div class="pt-[15px] desktop:h-[172px] desktop:pt-6 desktop:flex desktop:flex-col desktop:justify-start desktop:items-start ">
+              
+              <h3 class="text-[24px] w-[257px] font-bold font-poppins text-[#3B3B3B] mb-3 transition-all duration-300 ease-out hover:-translate-y-1 hover:text-[#FFA502] desktop:text-2xl">
+                Business Studies
+              </h3>
+              <p class="font-rubik text-[18px] text-[#6F6F76] leading-[32px] mb-4 desktop:text-base desktop:leading-[32px]">
+                Assertively parallel task synergistic<br> deliverables after high-quality.
+              </p>
+              <a href="#" class="text-[#FFA502] font-poppins font-medium text-[16px] hover:underline hover:-translate-y-1 hover:font-semibold transition-all duration-300 ease-out inline-flex items-center desktop:text-base desktop:pt-2">
+                Learn More →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- View All Department Button -->
+      <div class="text-center pt-6">
+        <button class="w-[200px] h-[56px] bg-[#FFA502] rounded-[15px] shadow-[5px_10px_30px_0px_rgba(255,165,2,0.3)] flex items-center justify-center mx-auto hover:opacity-90 transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-[5px_15px_35px_0px_rgba(255,165,2,0.35)] desktop:w-[220px] desktop:h-[64px]">
+          <span class="font-rubik font-medium text-base text-white transition-all duration-300 hover:font-semibold">View All Department</span>
+        </button>
+      </div>
+    </div>
+  </section>
+</section>
+ <!--End of Sections Career -->
+
+    <!--Start of Teacher Section -->
+    <section
+      class="h-[1994.40087890625px] desktop:h-[868px] desktop:ml-[250px] desktop:mr-[250px] mb-[150px] desktop:mb-0"
+    >
+      <header
+        class="pl-[24px] mb-[100px] desktop:mb-[200px] mt-[60px] flex flex-col desktop:flex-row desktop:justify-between desktop:items-center"
+      >
+        <div
+          class="w-[222px] desktop:w-[369px] h-[68px] mb-[30px] font-poppins font-bold text-[24px] desktop:text-[40px] text-[#111116]"
+        >
+          Intriduce with Our Famous Teacher
+        </div>
+        <button
+          class="w-[193px] h-[64px] rounded-[15px] bg-[#FFA502] shadow-[5px_10px_30px_#FFA5024D] font-rubik font-medium text-[16px] text-white transition-all duration-300 hover:bg-[#E69500] hover:scale-105 hover:shadow-[5px_10px_40px_#FFA50266]"
+        >
+          View All Teachers
+        </button>
+      </header>
+      <section
+        class="desktop:w-[1420px] flex flex-col desktop:flex-row gap-[100px] desktop:gap-[80px] desktop:justify-evenly justify-center items-center"
+      >
+        <article class="desktop:w-[410px] desktop:h-[575.650390625px] transition-all duration-300 hover:scale-105 desktop:hover:scale-110 cursor-pointer">
+          <div class="transition-transform duration-300 hover:scale-105 desktop:hover:scale-110 relative w-[329.82489013671875px] desktop:w-[394.86077880859375px] h-[329.82489013671875px] desktop:h-[394.86077880859375px]">
+            <img
+              src="image/Best/Ellipse1.svg"
+              alt=""
+              class="absolute inset-0 w-full h-full transition-all duration-300"
+              aria-hidden="true"
+            />
+            <img
+              src="image/Best/Shaapir.jpg"
+              alt="Shaapir Prio profile picture"
+              class="absolute inset-0 w-full h-full rounded-full object-cover transition-all duration-300"
+            />
+          </div>
+          <div
+            class="mt-6 mb-[100px] flex flex-col gap-3 justify-center items-center"
+          >
+            <div
+              class="h-[34px] font-poppins font-bold text-[28px] text-[#3B3B3B] transition-colors duration-300 hover:text-[#111116]"
+            >
+              Shaapir Prio
+            </div>
+            <div
+              class="font-rubik font-normal text-[18px] leading-[28px] text-[#6F6F76]"
+            >
+              Assistant Director
+            </div>
+            <div class="mt-2 flex gap-3">
+              <a href="#" aria-label="Google" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Google.svg"
+                  alt="Google"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="Twitter" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Twitter.svg"
+                  alt="Twitter"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="Instagram" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/IG.svg"
+                  alt="Instagram"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="LinkedIn" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Linkedin.svg"
+                  alt="LinkedIn"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="desktop:w-[410px] desktop:h-[575.650390625px] transition-all duration-300 hover:scale-105 desktop:hover:scale-110 cursor-pointer">
+          <div class="transition-transform duration-300 hover:scale-105 desktop:hover:scale-110 relative w-[329.82489013671875px] desktop:w-[394.86077880859375px] h-[329.82489013671875px] desktop:h-[394.86077880859375px]">
+            <img
+              src="image/Best/Ellipse2.svg"
+              alt=""
+              class="absolute inset-0 w-full h-full transition-all duration-300"
+              aria-hidden="true"
+            />
+            <img
+              src="image/Best/Selena.jpg"
+              alt="Sellina profile picture"
+              class="absolute inset-0 w-full h-full rounded-full object-cover transition-all duration-300"
+            />
+          </div>
+          <div
+            class="mt-6 mb-[100px] flex flex-col gap-3 justify-center items-center"
+          >
+            <div
+              class="h-[34px] font-poppins font-bold text-[28px] text-[#3B3B3B] transition-colors duration-300 hover:text-[#111116]"
+            >
+              Sellina
+            </div>
+            <div
+              class="font-rubik font-normal text-[18px] leading-[28px] text-[#6F6F76]"
+            >
+              Director
+            </div>
+            <div class="mt-2 flex gap-3">
+              <a href="#" aria-label="Google" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Google.svg"
+                  alt="Google"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="Twitter" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Twitter.svg"
+                  alt="Twitter"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="Instagram" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/IG.svg"
+                  alt="Instagram"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="LinkedIn" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Linkedin.svg"
+                  alt="LinkedIn"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="desktop:w-[410px] desktop:h-[575.650390625px] transition-all duration-300 hover:scale-105 desktop:hover:scale-110 cursor-pointer">
+          <div class="transition-transform duration-300 hover:scale-105 desktop:hover:scale-110 relative w-[329.82489013671875px] desktop:w-[394.86077880859375px] h-[329.82489013671875px] desktop:h-[394.86077880859375px]">
+            <img
+              src="image/Best/Ellipse3.svg"
+              alt=""
+              class="absolute inset-0 w-full h-full transition-all duration-300"
+              aria-hidden="true"
+            />
+            <img
+              src="image/Best/John.jpg"
+              alt="John Smith profile picture"
+              class="absolute inset-0 w-full h-full rounded-full object-cover transition-all duration-300"
+            />
+          </div>
+          <div
+            class="mt-6 mb-[100px] flex flex-col gap-3 justify-center items-center"
+          >
+            <div
+              class="h-[34px] font-poppins font-bold text-[28px] text-[#3B3B3B] transition-colors duration-300 hover:text-[#111116]"
+            >
+              John Smith
+            </div>
+            <div
+              class="font-rubik font-normal text-[18px] leading-[28px] text-[#6F6F76]"
+            >
+              Assistant Director
+            </div>
+            <div class="mt-2 flex gap-3">
+              <a href="#" aria-label="Google" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Google.svg"
+                  alt="Google"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="Twitter" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Twitter.svg"
+                  alt="Twitter"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="Instagram" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/IG.svg"
+                  alt="Instagram"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+              <a href="#" aria-label="LinkedIn" class="w-[14px] h-[18px] transition-transform duration-300 hover:scale-125 hover:opacity-80">
+                <img
+                  src="image/Best/Linkedin.svg"
+                  alt="LinkedIn"
+                  class="w-[14px] h-[18px]"
+                />
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </section>
+    <!--End of Teacher Section -->
+
+   <!--Start of Testimonial Section -->
+   <section
+   class="desktop:pl-[240px] desktop:pr-[240px] flex justify-center items-center"
+ >
+   <section
+     class="w-[375px] desktop:w-[1419.935546875px] h-[1026px] desktop:h-[635px] pl-[24px] pr-[24px] mt-10 gap-[100px] desktop:flex desktop:row desktop:justify-evenly desktop:items-center"
+   >
+     <section class="mb-12 desktop:mt-[100px] desktop:order-2">
+       <div
+         class="desktop:w-[453px] desktop:h-[312px] desktop:gap-[100px] flex flex-col"
+       >
+         <div class="h-[68px] mb-6 flex flex-col">
+           <span
+             class="font-poppins font-bold text-[24px] desktop:text-[40px]/[58px] text-[#111116]"
+             >5000 Reviews from<br />Our Successful Students!</span
+           >
+         </div>
+         <div class="w-[327px] desktop:w-[453px] h-[180px]">
+           <span
+             class="font-rubik font-normal text-[18px]/[36px] text-[#6F6F76]"
+             >Teractively recaptlualize Intermandated e-commerce after sticky
+             applications. Dynamically reintermediate viral testing
+             procedures through technically sound.</span
+           >
+         </div>
+       </div>
+     </section>
+
+     <section class="relative desktop:order-1">
+       <article
+         class="p-6 desktop:w-[695.267578125px] desktop:h-[344px] desktop:p-12 rounded-2xl bg-[#FFA502] shadow-[-10px_20px_40px_#FFA50266] desktop:flex desktop flex-col desktop:justify-center relative z-10 transition-all duration-300 hover:shadow-[-10px_25px_50px_#FFA50280] hover:scale-[1.02] cursor-pointer"
+       >
+         <div
+           class="gap-4 mb-4 desktop:mb-0 flex justify-start desktop:justify-between items-center"
+         >
+           <div class="gap-4 flex items-center">
+            <div>
+              <img
+                src="image/Best/Jaqoun.jpg"
+                alt="Jaquon Hart profile picture"
+                class="w-[87.21126556396484px] h-[87.21126556396484px] rounded-full object-cover object-top"
+              />
+            </div>
+             <div class="flex flex-col">
+               <div
+                 class="font-poppins font-bold text-[24.23px]/[29.07px] text-white mb-1"
+               >
+                 Jaquon Hart
+               </div>
+               <div
+                 class="font-rubik font-normal text-[19.38px]/[33.92px] text-white mb-2"
+               >
+                 Civil Engineer
+               </div>
+             </div>
+           </div>
+           <div
+             class="hidden desktop:flex desktop:gap-1 desktop:items-center"
+           >
+             <span><img src="image/Best/star.svg" alt="star" /></span>
+             <span><img src="image/Best/star.svg" alt="star" /></span>
+             <span><img src="image/Best/star.svg" alt="star" /></span>
+             <span><img src="image/Best/star.svg" alt="star" /></span>
+             <span><img src="image/Best/star.svg" alt="star" /></span>
+           </div>
+         </div>
+         <div
+           class="w-[143.04745483398438px] mb-4 desktop:hidden flex justify-between"
+         >
+           <span><img src="image/Best/star.svg" alt="star" /></span>
+           <span><img src="image/Best/star.svg" alt="star" /></span>
+           <span><img src="image/Best/star.svg" alt="star" /></span>
+           <span><img src="image/Best/star.svg" alt="star" /></span>
+           <span><img src="image/Best/star.svg" alt="star" /></span>
+         </div>
+         <div class="mt-4">
+           <span
+             class="font-rubik font-normal text-[24px] leading-[48px] text-white"
+             >"With Edu, we're able <br class="desktop:hidden" />
+             to easily track our performance
+             <br class="hidden desktop:block" />
+             in full <br class="desktop:hidden" />
+             detail. It's become an essential tool for us to
+             <br class="hidden desktop:block" />
+             grow and engage with our audience."</span
+           >
+         </div>
+       </article>
+
+       <div class="gap-3 mt-12 flex justify-end relative z-20">
+         <button
+           aria-label="Previous testimonial"
+           class="w-8 desktop:w-[56px] h-8 desktop:h-[56px] flex items-center justify-center relative transition-all duration-300 hover:scale-110 active:scale-95"
+         >
+           <img
+             src="image/Best/Left Circle.svg"
+             alt="Circle"
+             class="w-8 desktop:w-[56px] h-8 desktop:h-[56px] absolute transition-opacity duration-300 hover:opacity-90"
+           />
+           <img
+             src="image/Best/Left Arr.svg"
+             alt="Previous"
+             class="w-[15px] h-[14px] relative z-10 transition-transform duration-300 hover:translate-x-[-2px]"
+           />
+         </button>
+         <button
+           aria-label="Next testimonial"
+           class="w-8 desktop:w-[56px] h-8 desktop:h-[56px] flex items-center justify-center relative transition-all duration-300 hover:scale-110 active:scale-95"
+         >
+           <img
+             src="image/Best/Right Circle.svg"
+             alt="Circle"
+             class="w-8 desktop:w-[56px] h-8 desktop:h-[56px] absolute transition-opacity duration-300 hover:opacity-90"
+           />
+           <img
+             src="image/Best/Right Arr.svg"
+             alt="Next"
+             class="w-[15px] h-[14px] relative z-10 transition-transform duration-300 hover:translate-x-[2px]"
+           />
+         </button>
+       </div>
+
+       <article
+         class="p-6 w-[327px] desktop:w-[695.267578125px] desktop:h-[344px] border-[1px] border-[#ffffff] desktop:left-[-105px] desktop:top-[140px] left-[-10px] top-[150px] rounded-2xl shadow-sm desktop:shadow-sm bg-white absolute z-0 transition-all duration-300 hover:shadow-lg hover:opacity-90"
+       >
+         <div
+           class="gap-4 mb-4 desktop:mb-10 desktop:mt-4 flex justify-start items-center"
+         >
+          <div class=" opacity-20">
+            <img
+              src="image/Best/Jaqoun.jpg"
+              alt="Jaquon Hart profile picture"
+              class="w-[87.21126556396484px] h-[87.21126556396484px] rounded-full object-cover object-top"
+            />
+          </div>
+           <div class="flex flex-col">
+             <div
+               class="font-poppins font-bold text-[24.23px]/[29.07px] text-[#111116] mb-1"
+             >
+               Jaquon Hart
+             </div>
+             <div
+               class="font-rubik font-normal text-[19.38px]/[33.92px] text-[#6F6F76] mb-2"
+             >
+               Civil Engineer
+             </div>
+           </div>
+         </div>
+         <div class="mt-4">
+           <span
+             class="w-[267px] h-[336px] font-rubik font-normal text-[24px]/[48px] text-[#6F6F76] opacity-50"
+             >"With Edu, we're able to easily track our performance
+             <br class="hidden desktop:block" />
+             in full detail. It's become an essential tool for us to <br />
+             grow and engage with <br class="desktop:hidden" />
+             our audience."</span
+           >
+         </div>
+       </article>
+     </section>
+   </section>
+ </section>
+ <!--End of Testimonial Section -->
+
+    <!--CTA and footer-------------------------------------------------------------------------------------------CTA and footer-------->
+    <section class="w-full bg-[#FFFFFF] flex flex-col">
+      <!--CTA--->
+      <div
+        class="mt-[41px] px-6 desktop:px-[250px] py-[50px] desktop:py-[77px] desktop:mt-[265px] bg-[#2A2A31] flex flex-col desktop:flex-row justify-between desktop:justify-start items-start desktop:items-center gap-8 desktop:gap-28 relative group "
+      >
+
+        <p
+          class="font-poppins font-bold text-2xl desktop:text-[40px] desktop:leading-[48px] text-[#FFFFFF] group-hover:text-3xl desktop:group-hover:text-6xl group-hover:-rotate-[2deg] desktop:group-hover:-rotate-[5deg] group-hover:translate-x-[15px] desktop:group-hover:translate-x-28 duration-300"
+        >
+          Create Free Account <br />& Get Register
+        </p>
+        
+        <img
+          src="/image/Party/icon-directrion.svg"
+          alt="direction icon"
+          class="absolute top-[135px] left-[204px] desktop:hidden group-hover:translate-x-10 group-hover:translate-y-[20px] group-hover:rotate-[25deg] duration-500"
+        />
+        <img
+          src="/image/Party/icon-rotate-direction.svg"
+          alt="direction icon"
+          class="absolute top-[145.47px] desktop:left-[617.1px] hidden desktop:flex group-hover:rotate-[25deg] group-hover:translate-x-64 duration-500"
+        />
+        <img
+          src="/image/Party/icon-rotate-direction.svg"
+          alt="direction icon"
+          class="absolute top-[65px] desktop:left-[1310px] rotate-[150deg] opacity-0 pointer-events-none transition-all duration-500 ease-in-out desktop:group-hover:opacity-100 desktop:group-hover:pointer-events-auto desktop:group-hover:rotate-[190deg] desktop:group-hover:-translate-x-[94px]"
+        />
+
+        <button
+          class="py-5 px-9 desktop:px-8 rounded-[20px] font-rubik font-medium text-base text-white bg-[#FFA502] relative overflow-hidden transition-transform duration-700 ease-in-out hover:scale-110 hover:rotate-[-15deg]  group-hover:rotate-[12deg] group-hover:translate-x-5 desktop:hover:scale-125 shadow-[5px_10px_30px_0_#FFA50226]
+          hover:shadow-[0_0_15px_#FFA502] hover:cursor-pointer animate-pulse"
+        >
+          Register Now
+        </button>
+      </div>
+
+      <!--footer--->
+      <footer
+        class="px-6 desktop:px-[250px] pt-20 desktop:pt-[146px] bg-[#111116] flex flex-col"
+      >
+        <div
+          class="desktop:pb-[18px] flex flex-col desktop:flex-row gap-[22px] desktop:gap-[110px]"
+        >
+          <div class="group">
+            <img src="image/Party/logo-EU.svg " alt="Eu logo" class=" group-hover:scale-[1.7]  group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:translate-y-4  group-hover:-rotate-[15deg] duration-[400ms] "/>
+            
+            <div class="w-full pt-1 font-rubik font-normal text-base text-[#B2B2B2] leading-7 desktop:leading-8 desktop:text-nowrap">
+              <span class="inline-flex group-hover:-rotate-[12deg]  group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:translate-y-[15px] duration-700">Professionally scale</span>
+              <span class="inline-flex  group-hover:rotate-[3deg]  group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:-translate-y-[1px] duration-700">cross functional</span>
+            </div>
+            
+            <!-- บรรทัด 3+4 -->
+            <div class="w-full pt-1 font-rubik font-normal text-base text-[#B2B2B2] leading-7 desktop:leading-8 desktop:text-nowrap">
+              <span class="inline-flex  group-hover:-rotate-[7deg] group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:translate-y-[2px] duration-1000">human capital and</span>
+              <span class="inline-flex  group-hover:rotate-[3deg] group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:-translate-y-[5px] duration-1000">extensive technology.</span>
+            </div>
+          
+            <div class="pt-14 pb-3 hidden desktop:flex flex-row gap-2 ">
+              <img
+                src="image/Party/icon-google.svg"
+                alt="google icon"
+                class="w-10  duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
+              />
+              <img
+                src="image/Party/icon-twitter.svg"
+                alt="twiter icon"
+                class="w-10   duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
+              />
+              <img
+                src="image/Party/icon-instagram.svg"
+                alt="instagram icon"
+                class="w-10  duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
+              />
+              <img
+                src="image/Party/icon-linkIn.svg"
+                alt="linkIn icon"
+                class="w-10  duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
+              />
+            </div>
+          </div>
+          <div
+            class=" w-fit desktop:w-full flex flex-col desktop:flex desktop:flex-row desktop:justify-between"
+          >
+          <!-- Service List -->
+          <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Services</h2>
+            <ul class="flex flex-col gap-[22px]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+                Documentation
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+                Design
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+                Themes
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+                Illustrations
+              </li>
+            </ul>
+          </div>
+          
+          
+            <!-- Company List -->
+          <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Company</h2>
+            <ul class="flex flex-col gap-[22px]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              About
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Terms
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Privacy Policy
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Careers
+              </li>
+            </ul>
+          </div>
+            
+          <!-- Job info List -->
+          <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Job Info</h2>
+            <ul class="flex flex-col gap-[22px]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Select
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Services
+              </li>
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Payment
+              </li>
+            </ul>
+          </div>
+
+           <!-- Job info List -->
+           <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Contact</h2>
+            <ul class="flex flex-col gap-[22px]">
+              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
+                <span class="font-rubik font-medium text-base text-[#F2F2F2]"
+                  >Call</span
+                >
+                : 971 5546 963
+              </li>
+              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
+                <span class="font-rubik font-medium text-base text-[#F2F2F2]"
+                  >Email</span
+                >
+                : example@gmail.com
+              </li>
+              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
+                <span class="font-rubik font-medium text-base text-[#F2F2F2]"
+                  >Address</span
+                >
+                : Dhaka, Bangladesh
+              </li>
+            </ul>
+          </div>
+         </div>
+
+          <div class="pt-1 pb-3 flex flex-row gap-2 desktop:hidden">
+            <div class="flex justify-center">
+              <img
+                src="/image/Party/icon-google.svg"
+                alt="google icon"
+                class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+              />
+            </div>
+            <img
+              src="/image/Party/icon-twitter.svg"
+              alt="twiter icon"
+              class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+            />
+            <img
+              src="/image/Party/icon-instagram.svg"
+              alt="instagram icon"
+              class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+            />
+            <img
+              src="/image/Party/icon-linkIn.svg"
+              alt="linkIn icon"
+              class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+            />
+          </div>
+        </div>
+        <div class="mt-[30px] border-t-[1px] border-[#FFFFFF] opacity-20"></div>
+        <span
+          class="pt-5 desktop:pt-4 pb-3 desktop:pb-7 font-rubik font-normal text-base text-[#B2B2B2] text-center"
+          >Copyright©chakri.All right reserved</span
+        >
+      </footer>
+      <div class="p-3 bg-[#FFFFFF] block desktop:hidden"></div>
+
+    </section>
   </body>
 </html>
