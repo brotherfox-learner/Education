@@ -33,7 +33,15 @@
       <div class="pt-[24px] pb-[80px] flex justify-center desktop:justify-between">
         <div class="w-[327px] flex justify-between items-center desktop:w-full desktop:px-[250px]">
           <img src="image\Oat\icons\logo.svg" class="w-[59px] h-[33px] desktop:w-[130px] desktop:h-[73px]">
-          <img src="image\Oat\icons\category-icon.svg" class="w-[24px] h-[24px] desktop:hidden">
+          <div class="group relative" tabindex="0">
+            <img src="image\Oat\icons\category-icon.svg" class="w-[24px] h-[24px] cursor-pointer desktop:hidden">
+            <div class="bg-white shadow-md h-[130px] w-[100px] py-[10px] flex flex-col justify-between rounded-[10px] items-center gap-[6px] absolute right-[-5px] mt-[4px] invisible group-focus-within:visible z-40 desktop:hidden">
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Contact Now</h5>
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Home</h5>
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Admission</h5>
+              <h5 class="font-poppins text-[12px] cursor-pointer hover:underline hover:decoration-[#FFBE48] hover:decoration-[1px] hover:underline-offset-4">Academic</h5>
+            </div>
+          </div>
           <button class="hidden desktop:block desktop:w-[162px] desktop:h-[64px] desktop:text-white desktop:font-[500] desktop:font-rubik desktop:rounded-[15px] desktop:bg-[#111116] desktop:shadow-[inset_0px_-10px_20px_#585867] desktop:order-3 hover:bg-[#1a1a22] hover:scale-105 ">Contact Now</button>
           <div class="hidden desktop:w-[351px] desktop:font-rubik desktop:text-[18px] desktop:flex desktop:justify-between desktop:absolute desktop:left-[550px]">
             <span class="desktop:hover:underline desktop:hover:decoration-[#FFBE48] desktop:hover:decoration-[2px] desktop:hover:underline-offset-8">Home</span>
@@ -44,11 +52,11 @@
       </div>
       <div class="flex flex-col justify-center items-center desktop:flex-row desktop:justify-between desktop:px-[250px] desktop:pt-[120px]">
         <div class="pb-[35px] flex justify-center items-center desktop:order-2">
-          <div class="relative desktop:scale-[2.15] desktop:left-[-140px] desktop:top-[30px]">
+          <div class="relative desktop:scale-[2.15] desktop:left-[-140px] desktop:top-[30px] hover:scale-105 desktop:hover:scale-[2.30] transition-all duration-300">
             <span class="w-[295px] h-[295px] rounded-full bg-[linear-gradient(180deg,#FFF1DB_36.7%,#FAFCF7_100%)] inline-block"></span>
 
             <!-- congrat tag-->
-            <div class="absolute left-[-32px] top-[45px]">
+            <div class="absolute left-[-32px] top-[45px] hover:scale-110 desktop:hover:scale-[1.20] transition-all duration-400">
               <div
                 class="w-[87.5px] h-[48.5px] bg-white flex flex-col justify-center items-center gap-[4px] rounded-[8.75px] absolute shadow-[2.18px_6.55px_21.85px_rgba(0,0,0,0.1)]"
               >
@@ -69,14 +77,14 @@
               </div>
             </div>
             <!-- 40k+ tag-->
-            <div class="absolute top-[26px] right-[60px]">
+            <div class="absolute top-[26px] right-[60px] hover:scale-110 desktop:hover:scale-[1.20] transition-all duration-400">
               <div
-                class="w-[87.5px] h-[97.9px] bg-white flex flex-col justify-center items-center gap-[4px] rounded-[8.75px] absolute shadow-[2.18px_6.55px_21.85px_rgba(0,0,0,0.1)]"
+                class="w-[87.5px] h-[87.5px] bg-white flex flex-col justify-center items-center gap-[4px] rounded-[8.75px] absolute shadow-[2.18px_6.55px_21.85px_rgba(0,0,0,0.1)]"
               >
                 <div
                   class="flex flex-col justify-center items-center gap-[4px]"
                 >
-                  <h5 class="font-poppins font-[700] text-[13.12px]">40k +</h5>
+                  <h5 class="font-poppins font-[700] text-[13.12px] ">40k +</h5>
                   <h6 class="font-rubik text-[7.87px] text-[#6F6F76]">
                     Happy Students
                   </h6>
@@ -100,7 +108,7 @@
                   />
                 </div>
                 <div
-                  class="w-[21px] h-[21px] bg-[#51C8FF] flex justify-center items-center rounded-full absolute top-[-9px] shadow-[0.87px_3.49px_8.7px_rgba(81,200,255,0.5)]"
+                  class="w-[21px] h-[21px] bg-[#51C8FF] flex justify-center items-center rounded-full absolute top-[-10px] shadow-[0.87px_3.49px_8.7px_rgba(81,200,255,0.5)]"
                 >
                   <img
                     src="image\Oat\icons\heart-icon.svg"
@@ -141,27 +149,27 @@
       >
         <img
           src="image\Oat\icons\martoni-company.svg"
-          class="w-[210px] h-[76px]"
+          class="w-[210px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
         />
         <img
           src="image\Oat\icons\real-estate-company.svg"
-          class="w-[284px] h-[76px]"
+          class="w-[284px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
         />
         <div
           class="w-[223px] h-[97px] bg-white rounded-[20px] flex justify-center items-center shadow-[5px_30px_60px_rgba(85,85,85,0.1)] desktop:w-[240px]"
         >
           <img
             src="image\Oat\icons\promedia-company.svg"
-            class="w-[206px] h-[76px]"
+            class="w-[206px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
           />
         </div>
         <img
           src="image\Oat\icons\studio-company.svg"
-          class="w-[284px] h-[76px]"
+          class="w-[284px] h-[76px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
         />
         <img
           src="image\Oat\icons\maxdino-company.svg"
-          class="w-[284px] h-[68px]"
+          class="w-[284px] h-[68px] transition-all duration-300 hover:scale-[1.20] desktop:hover:scale-[1.40] hover:drop-shadow-lg cursor-pointer"
         />
       </div>
     </section>
