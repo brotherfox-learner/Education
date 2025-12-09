@@ -671,152 +671,228 @@
     <section class="w-full bg-[#FFFFFF] flex flex-col">
       <!--CTA--->
       <div
-        class="mt-[41px] px-6 desktop:px-[250px] py-[50px] desktop:py-[77px] desktop:mt-[265px] bg-[#2A2A31] flex flex-col desktop:flex-row justify-between desktop:justify-start items-start desktop:items-center gap-8 desktop:gap-28 relative"
+        class="mt-[41px] px-6 desktop:px-[250px] py-[50px] desktop:py-[77px] desktop:mt-[265px] bg-[#2A2A31] flex flex-col desktop:flex-row justify-between desktop:justify-start items-start desktop:items-center gap-8 desktop:gap-28 relative group "
       >
+
         <p
-          class="font-poppins font-bold text-2xl desktop:text-[40px] desktop:leading-[48px] text-[#FFFFFF]"
+          class="font-poppins font-bold text-2xl desktop:text-[40px] desktop:leading-[48px] text-[#FFFFFF] group-hover:text-4xl desktop:group-hover:text-6xl group-hover:-rotate-[2deg] desktop:group-hover:-rotate-[5deg] group-hover:translate-x-10 desktop:group-hover:translate-x-28 duration-300 z-20"
         >
           Create Free Account <br />& Get Register
         </p>
+        
         <img
           src="/image/Party/icon-directrion.svg"
           alt="direction icon"
-          class="absolute top-[97px] left-[204px] desktop:hidden"
+          class="absolute top-[97px] left-[204px] desktop:hidden group-hover:translate-x-10 group-hover:translate-y-14 group-hover:rotate-[25deg] duration-500 z-20"
         />
         <img
           src="/image/Party/icon-rotate-direction.svg"
           alt="direction icon"
-          class="absolute top-[145.47px] left-[617.1px] hidden desktop:flex"
+          class="absolute top-[145.47px] left-[617.1px] hidden desktop:flex group-hover:rotate-[25deg] group-hover:translate-x-64 duration-500 z-20"
         />
+        <img
+          src="/image/Party/icon-rotate-direction.svg"
+          alt="direction icon"
+          class="absolute top-[65px] right-[510px] rotate-[150deg] opacity-0 pointer-events-none transition-all duration-500 ease-in-out desktop:group-hover:opacity-100 desktop:group-hover:pointer-events-auto desktop:group-hover:rotate-[190deg] desktop:group-hover:-translate-x-[94px] z-20"
+        />
+
         <button
-          class="py-5 px-9 desktop:px-8 rounded-[15px] shadow-[5px_10px_30px_0px_#FFA50226] font-rubik font-medium text-base text-[#FFFFFF] bg-[#FFA502]"
+          class="py-5 px-9 desktop:px-8 rounded-[20px] font-rubik font-medium text-base text-white bg-[#FFA502] relative overflow-hidden transition-transform duration-700 ease-in-out hover:scale-110 hover:rotate-[-15deg]  group-hover:rotate-[12deg] group-hover:translate-x-5 desktop:hover:scale-125 shadow-[5px_10px_30px_0_#FFA50226]
+          hover:shadow-[0_0_15px_#FFA502] hover:cursor-pointer animate-pulse z-20"
         >
           Register Now
         </button>
       </div>
 
       <!--footer--->
-      <footer class="px-6 desktop:px-[250px] pt-20 desktop:pt-[146px] bg-[#111116] flex flex-col">
+      <footer
+        class="px-6 desktop:px-[250px] pt-20 desktop:pt-[146px] bg-[#111116] flex flex-col"
+      >
         <div
           class="desktop:pb-[18px] flex flex-col desktop:flex-row gap-[22px] desktop:gap-[110px]"
         >
-          <div class="">
-            <img src="image/Party/logo-EU.svg " alt="Eu logo" />
-            <p
-              class="w-full pt-1 font-rubik font-normal text-base text-[#B2B2B2] leading-7 desktop:leading-8 desktop:text-nowrap"
-            >
-              Professionally scale cross functional<br />
-              human capital and extensive technology.
-            </p>
-
-            <div class="py-14 pb-3 flex-row gap-2 hidden desktop:flex">
+          <div class="group">
+            <img src="image/Party/logo-EU.svg " alt="Eu logo" class=" group-hover:scale-[1.7]  group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:translate-y-4  group-hover:-rotate-[15deg] duration-[400ms] "/>
+            
+            <div class="w-full pt-1 font-rubik font-normal text-base text-[#B2B2B2] leading-7 desktop:leading-8 desktop:text-nowrap">
+              <span class="inline-flex group-hover:-rotate-[12deg]  group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:translate-y-[15px] duration-700">Professionally scale</span>
+              <span class="inline-flex  group-hover:rotate-[3deg]  group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:-translate-y-[1px] duration-700">cross functional</span>
+            </div>
+            
+            <!-- บรรทัด 3+4 -->
+            <div class="w-full pt-1 font-rubik font-normal text-base text-[#B2B2B2] leading-7 desktop:leading-8 desktop:text-nowrap">
+              <span class="inline-flex  group-hover:-rotate-[7deg] group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:translate-y-[2px] duration-1000">human capital and</span>
+              <span class="inline-flex  group-hover:rotate-[3deg] group-hover:translate-x-[20px] desktop:group-hover:translate-x-[0px] group-hover:-translate-y-[5px] duration-1000">extensive technology.</span>
+            </div>
+          
+            <div class="pt-14 pb-3 hidden desktop:flex flex-row gap-2 ">
               <img
                 src="image/Party/icon-google.svg"
                 alt="google icon"
-                class="w-10"
+                class="w-10  duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
               />
               <img
                 src="image/Party/icon-twitter.svg"
                 alt="twiter icon"
-                class="w-10"
+                class="w-10   duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
               />
               <img
                 src="image/Party/icon-instagram.svg"
                 alt="instagram icon"
-                class="w-10"
+                class="w-10  duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
               />
               <img
                 src="image/Party/icon-linkIn.svg"
                 alt="linkIn icon"
-                class="w-10"
+                class="w-10  duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-80"
               />
             </div>
           </div>
           <div
-            class="w-full desktop:flex desktop:flex-row desktop:justify-between "
+            class=" w-fit desktop:w-full flex flex-col desktop:flex desktop:flex-row desktop:justify-between"
           >
-            <ul
-              class="pt-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2] flex flex-col gap-[22px]"
-            >
-              Services
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
+          <!-- Service List -->
+          <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Services</h2>
+            <ul class="flex flex-col gap-[22px]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
                 Documentation
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
                 Design
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
                 Themes
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
                 Illustrations
               </li>
             </ul>
-
-            <ul
-              class="pt-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2] flex flex-col gap-[22px]"
-            >
-              Company
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                About
+          </div>
+          
+          
+            <!-- Company List -->
+          <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Company</h2>
+            <ul class="flex flex-col gap-[22px]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              About
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                Terms
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Terms
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                Privacy Policy
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Privacy Policy
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                Careers
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Careers
               </li>
             </ul>
-
-            <ul
-              class="pt-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2] flex flex-col gap-[22px]"
-            >
-              Job Info
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                Select
+          </div>
+            
+          <!-- Job info List -->
+          <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Job Info</h2>
+            <ul class="flex flex-col gap-[22px]">
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Select
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                Services
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Services
               </li>
-              <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                Payment
+              <li
+                class="w-fit relative font-rubik font-normal text-base text-[#B3B3B3] hover:text-[#FFA502] cursor-pointer transition-all hover:translate-x-3
+                       before:content-['•'] before:absolute before:left-[-10px] before:opacity-0 hover:before:opacity-100"
+              >
+              Payment
               </li>
             </ul>
+          </div>
 
-            <ul
-              class="pt-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2] flex flex-col gap-[22px]"
-            >
-              Contact
+           <!-- Job info List -->
+           <div class="w-fit">
+            <h2 class="py-[22px] desktop:pt-[5px] font-poppins font-bold text-xl text-[#F2F2F2]">Contact</h2>
+            <ul class="flex flex-col gap-[22px]">
               <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                <span class="font-rubik font-normal text-base text-[#F2F2F2]"
+                <span class="font-rubik font-medium text-base text-[#F2F2F2]"
                   >Call</span
                 >
                 : 971 5546 963
               </li>
               <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                <span class="font-rubik font-normal text-base text-[#F2F2F2]"
+                <span class="font-rubik font-medium text-base text-[#F2F2F2]"
                   >Email</span
                 >
                 : example@gmail.com
               </li>
               <li class="font-rubik font-normal text-base text-[#B3B3B3]">
-                <span class="font-rubik font-normal text-base text-[#F2F2F2]"
+                <span class="font-rubik font-medium text-base text-[#F2F2F2]"
                   >Address</span
                 >
                 : Dhaka, Bangladesh
               </li>
             </ul>
           </div>
+         </div>
 
           <div class="pt-1 pb-3 flex flex-row gap-2 desktop:hidden">
-            <img src="/image/Party/icon-google.svg" alt="google icon" />
-            <img src="/image/Party/icon-twitter.svg" alt="twiter icon" />
-            <img src="/image/Party/icon-instagram.svg" alt="instagram icon" />
-            <img src="/image/Party/icon-linkIn.svg" alt="linkIn icon" />
+            <div class="flex justify-center">
+              <img
+                src="/image/Party/icon-google.svg"
+                alt="google icon"
+                class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+              />
+            </div>
+            <img
+              src="/image/Party/icon-twitter.svg"
+              alt="twiter icon"
+              class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+            />
+            <img
+              src="/image/Party/icon-instagram.svg"
+              alt="instagram icon"
+              class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+            />
+            <img
+              src="/image/Party/icon-linkIn.svg"
+              alt="linkIn icon"
+              class="transition-transform duration-300 ease-in-out hover:scale-125 hover:cursor-pointer hover:opacity-70"
+            />
           </div>
+
+          <div
+            class="w-full h-full p-3 bg-[#FFFFFF] flex justify-center opacity-10 absolute inset-0"
+          ></div>
         </div>
         <div class="mt-[30px] border-t-[1px] border-[#FFFFFF] opacity-20"></div>
         <span
